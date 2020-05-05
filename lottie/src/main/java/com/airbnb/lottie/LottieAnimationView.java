@@ -133,6 +133,7 @@ import static com.airbnb.lottie.RenderMode.HARDWARE;
   public void setFileName(String fileName) {
     if (fileName != null) {
       setAnimation(fileName);
+      Log.d(TAG, "setFileName: " + fileName);
     }
   }
 
